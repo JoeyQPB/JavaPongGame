@@ -100,13 +100,13 @@ public class GamePanel extends JPanel implements  Runnable {
 			score.player2++;
 			newPaddles();
 			newBall();
-			System.out.println("Score " + "P1 " + score.player1 + " - " + score.player2 + " P2");
+//			System.out.println("Score " + "P1 " + score.player1 + " - " + score.player2 + " P2");
 		}
 		if(ball.x >= GAME_WIDTH-BALL_DIAMETER) {
 			score.player1++;
 			newPaddles();
 			newBall();
-			System.out.println("Score " + "P1 " + score.player1 + " - " + score.player2 + " P2");
+//			System.out.println("Score " + "P1 " + score.player1 + " - " + score.player2 + " P2");
 		}
 	}
 	
